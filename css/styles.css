@@ -1506,8 +1506,12 @@ progress {
     --bs-gutter-y: 3rem;
   }
 
-.gx-lg{
+.gx-lg-3col{
     --bs-gutter-x: 9rem;
+}
+
+.gx-lg{
+    --bs-gutter-x: 15rem;
 }
 }
 @media (min-width: 1200px) {
@@ -9565,9 +9569,14 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
   
-  .px-lg {
+  .px-lg-3col {
     padding-right: 5rem !important;
     padding-left: 5rem !important;
+  }  
+  
+  .px-lg {
+    padding-right: 15rem !important;
+    padding-left: 15rem !important;
   }  
 
 .py-lg-0 {
